@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <title>Animated Shopping Cart</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FontAwesome Library -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Bootstrap Framework -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous" />
+    <!-- Main Style -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="position-relative overflow-x-hidden">
+    <!-- Start Of Header Section Markup -->
+
+    <header class="sticky-top bg-white z-2">
+      <div class="container d-flex align-items-center justify-content-between py-3">
+        <a href="./index.html" class="logo text-capitalize fs-4 fw-semibold">ecommerce</a>
+        <div role="button" class="open-cart position-relative">
+          <i class="fa-solid fa-cart-shopping fa-lg"></i>
+          <span
+            class="items-count position-absolute top-0 start-100 translate-middle-y d-flex align-items-center justify-content-center text-white rounded-pill"
+            >0</span
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- End Of Header Section Markup -->
+
+    <!-- Start Of Shopping Section Markup -->
+
+    <section id="shopping">
+      <div class="container d-grid gap-3 py-5">
+        <div class="item rounded-4 p-3 mb-4">
+          <img src="./assist/images/product-1.jpg" alt="Item Image Is Missing" class="img-fluid rounded-4" />
+          <h4 class="my-3 text-capitalize fw-semibold">mint green shirt</h4>
+          <div class="item-info rounded-4 d-flex align-items-center justify-content-between">
+            <div class="price text-capitalize">
+              <span class="d-block fw-semibold fs-5">$299</span>
+              <span class="det">details</span>
+            </div>
+            <span
+              role="button"
+              class="add-btn d-flex align-items-center justify-content-center text-white fs-4 rounded-circle"
+              >+</span
+            >
+          </div>
+        </div>
+        <div class="item rounded-4 p-3 mb-4">
+          <img src="./assist/images/product-2.jpg" alt="Item Image Is Missing" class="img-fluid rounded-4" />
+          <h4 class="my-3 text-capitalize fw-semibold">retro music</h4>
+          <div class="item-info rounded-4 d-flex align-items-center justify-content-between">
+            <div class="price text-capitalize">
+              <span class="d-block fw-semibold fs-5">$199</span>
+              <span class="det">details</span>
+            </div>
+            <span
+              role="button"
+              class="add-btn d-flex align-items-center justify-content-center text-white fs-4 rounded-circle"
+              >+</span
+            >
+          </div>
+        </div>
+        <div class="item rounded-4 p-3 mb-4">
+          <img src="./assist/images/product-3.jpg" alt="Item Image Is Missing" class="img-fluid rounded-4" />
+          <h4 class="my-3 text-capitalize fw-semibold">plain hoodie</h4>
+          <div class="item-info rounded-4 d-flex align-items-center justify-content-between">
+            <div class="price text-capitalize">
+              <span class="d-block fw-semibold fs-5">$180</span>
+              <span class="det">details</span>
+            </div>
+            <span
+              role="button"
+              class="add-btn d-flex align-items-center justify-content-center text-white fs-4 rounded-circle"
+              >+</span
+            >
+          </div>
+        </div>
+        <div class="item rounded-4 p-3 mb-4">
+          <img src="./assist/images/product-4.jpg" alt="Item Image Is Missing" class="img-fluid rounded-4" />
+          <h4 class="my-3 text-capitalize fw-semibold">golden perfume</h4>
+          <div class="item-info rounded-4 d-flex align-items-center justify-content-between">
+            <div class="price text-capitalize">
+              <span class="d-block fw-semibold fs-5">$107</span>
+              <span class="det">details</span>
+            </div>
+            <span
+              role="button"
+              class="add-btn d-flex align-items-center justify-content-center text-white fs-4 rounded-circle"
+              >+</span
+            >
+          </div>
+        </div>
+        <div class="item rounded-4 p-3 mb-4">
+          <img src="./assist/images/product-5.jpg" alt="Item Image Is Missing" class="img-fluid rounded-4" />
+          <h4 class="my-3 text-capitalize fw-semibold">sleep speaker</h4>
+          <div class="item-info rounded-4 d-flex align-items-center justify-content-between">
+            <div class="price text-capitalize">
+              <span class="d-block fw-semibold fs-5">$120</span>
+              <span class="det">details</span>
+            </div>
+            <span
+              role="button"
+              class="add-btn d-flex align-items-center justify-content-center text-white fs-4 rounded-circle"
+              >+</span
+            >
+          </div>
+        </div>
+        <div class="item rounded-4 p-3 mb-4">
+          <img src="./assist/images/product-6.jpg" alt="Item Image Is Missing" class="img-fluid rounded-4" />
+          <h4 class="my-3 text-capitalize fw-semibold">smart watch</h4>
+          <div class="item-info rounded-4 d-flex align-items-center justify-content-between">
+            <div class="price text-capitalize">
+              <span class="d-block fw-semibold fs-5">$240</span>
+              <span class="det">details</span>
+            </div>
+            <span
+              role="button"
+              class="add-btn d-flex align-items-center justify-content-center text-white fs-4 rounded-circle"
+              >+</span
+            >
+          </div>
+        </div>
+        <div class="item rounded-4 p-3 mb-4">
+          <img src="./assist/images/product-7.jpg" alt="Item Image Is Missing" class="img-fluid rounded-4" />
+          <h4 class="my-3 text-capitalize fw-semibold">handbag</h4>
+          <div class="item-info rounded-4 d-flex align-items-center justify-content-between">
+            <div class="price text-capitalize">
+              <span class="d-block fw-semibold fs-5">$170</span>
+              <span class="det">details</span>
+            </div>
+            <span
+              role="button"
+              class="add-btn d-flex align-items-center justify-content-center text-white fs-4 rounded-circle"
+              >+</span
+            >
+          </div>
+        </div>
+        <div class="item rounded-4 p-3 mb-4">
+          <img src="./assist/images/product-8.jpg" alt="Item Image Is Missing" class="img-fluid rounded-4" />
+          <h4 class="my-3 text-capitalize fw-semibold">brown shoe</h4>
+          <div class="item-info rounded-4 d-flex align-items-center justify-content-between">
+            <div class="price text-capitalize">
+              <span class="d-block fw-semibold fs-5">$480</span>
+              <span class="det">details</span>
+            </div>
+            <span
+              role="button"
+              class="add-btn d-flex align-items-center justify-content-center text-white fs-4 rounded-circle"
+              >+</span
+            >
+          </div>
+        </div>
+        <div class="item rounded-4 p-3 mb-4">
+          <img src="./assist/images/product-9.jpg" alt="Item Image Is Missing" class="img-fluid rounded-4" />
+          <h4 class="my-3 text-capitalize fw-semibold">Decorations</h4>
+          <div class="item-info rounded-4 d-flex align-items-center justify-content-between">
+            <div class="price text-capitalize">
+              <span class="d-block fw-semibold fs-5">$480</span>
+              <span class="det">details</span>
+            </div>
+            <span
+              role="button"
+              class="add-btn d-flex align-items-center justify-content-center text-white fs-4 rounded-circle"
+              >+</span
+            >
+          </div>
+        </div>
+        <div class="item rounded-4 p-3 mb-4">
+          <img src="./assist/images/product-10.jpg" alt="Item Image Is Missing" class="img-fluid rounded-4" />
+          <h4 class="my-3 text-capitalize fw-semibold">shelf decorations</h4>
+          <div class="item-info rounded-4 d-flex align-items-center justify-content-between">
+            <div class="price text-capitalize">
+              <span class="d-block fw-semibold fs-5">$180</span>
+              <span class="det">details</span>
+            </div>
+            <span
+              role="button"
+              class="add-btn d-flex align-items-center justify-content-center text-white fs-4 rounded-circle"
+              >+</span
+            >
+          </div>
+        </div>
+        <div class="item rounded-4 p-3 mb-4">
+          <img src="./assist/images/product-11.jpg" alt="Item Image Is Missing" class="img-fluid rounded-4" />
+          <h4 class="my-3 text-capitalize fw-semibold">plants decorations</h4>
+          <div class="item-info rounded-4 d-flex align-items-center justify-content-between">
+            <div class="price text-capitalize">
+              <span class="d-block fw-semibold fs-5">$168</span>
+              <span class="det">details</span>
+            </div>
+            <span
+              role="button"
+              class="add-btn d-flex align-items-center justify-content-center text-white fs-4 rounded-circle"
+              >+</span
+            >
+          </div>
+        </div>
+        <div class="item rounded-4 p-3 mb-4">
+          <img src="./assist/images/product-5.jpg" alt="Item Image Is Missing" class="img-fluid rounded-4" />
+          <h4 class="my-3 text-capitalize fw-semibold">speakers</h4>
+          <div class="item-info rounded-4 d-flex align-items-center justify-content-between">
+            <div class="price text-capitalize">
+              <span class="d-block fw-semibold fs-5">$200</span>
+              <span class="det">details</span>
+            </div>
+            <span
+              role="button"
+              class="add-btn d-flex align-items-center justify-content-center text-white fs-4 rounded-circle"
+              >+</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Of Shopping Section Markup -->
+
+    <!-- Start Of Shopping Cart Section Markup -->
+
+    <div
+      class="cart z-3 vh-100 bg-white p-3 position-absolute top-0 start-100 text-capitalize d-flex flex-column justify-content-between">
+      <div
+        class="head d-flex justify-content-between align-items-center p-2 fs-4 border-bottom border-1 border-light-subtle">
+        <h4 class="fw-bold">your cart</h4>
+        <span role="button" class="close-cart d-block fw-normal bg-light text-danger px-2 rounded-pill">x</span>
+      </div>
+      <div class="cart-items h-100 border-bottom border-1 border-light-subtle py-3"></div>
+      <div class="cart-info pt-2">
+        <div class="text-end fw-bold fs-5">total: $ <span class="cart-total">0.00</span></div>
+        <span class="cart-checkout d-block text-center text-white fw-medium py-2 rounded-2" role="button"
+          >checkout</span
+        >
+      </div>
+    </div>
+    <!-- End Of Shopping Cart Section Markup -->
+
+    <!-- FontAwesome Library -->
+    <script src="./js/all.min.js"></script>
+    <!-- Bootstrap Framework -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+    <!-- Main Script -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
